@@ -1,0 +1,139 @@
+[
+    {
+        "area": "Development",
+        "title": "Review Python logic",
+        "notes": "Scenario 1: Basic task. No dates, no status, no recurrence."
+    },
+    {
+        "area": "Travel",
+        "title": "Shop for sister and mother",
+        "status": "completed",
+        "notes": "Scenario 2: Pre-completed task."
+    },
+    {
+        "area": "Business",
+        "title": "Fix Blue Star AC",
+        "due_date": "2026-07-01",
+        "importance": "high",
+        "notes": "Scenario 3: Overdue task. Due date is strictly in the past."
+    },
+    {
+        "area": "Business",
+        "title": "Edit reels in CapCut",
+        "due_date": "2026-07-15",
+        "reminder_time": "2026-07-15T18:00:00",
+        "notes": "Scenario 4: Task due today with a specific reminder time."
+    },
+    {
+        "area": "Development",
+        "title": "Check Tic-Tac-Toe shuffle code",
+        "reminder_time": "2026-07-10T10:00:00",
+        "notes": "Scenario 5: Reminder set in the past. Tests if Microsoft accepts expired reminders."
+    },
+    {
+        "area": "Personal",
+        "title": "Watch Daredevil",
+        "recurrence": {
+            "type": "daily",
+            "interval": 1,
+            "range_type": "noEnd",
+            "start_date": "2026-07-15"
+        },
+        "notes": "Scenario 6: Missing due date on recurrence. Tests the Python safety net."
+    },
+    {
+        "area": "Development",
+        "title": "Meet accountability partner",
+        "due_date": "2026-07-15",
+        "recurrence": {
+            "type": "daily",
+            "interval": 1,
+            "range_type": "endDate",
+            "start_date": "2026-07-15",
+            "end_date": "2026-07-31"
+        },
+        "notes": "Scenario 7: Daily recurrence with a strict end date."
+    },
+    {
+        "area": "Travel",
+        "title": "Finalize 4-5 day itinerary",
+        "due_date": "2026-07-18",
+        "recurrence": {
+            "type": "weekly",
+            "interval": 1,
+            "daysOfWeek": [
+                "saturday"
+            ],
+            "range_type": "noEnd",
+            "start_date": "2026-07-18"
+        },
+        "notes": "Scenario 8: Weekly recurrence on one specific day."
+    },
+    {
+        "area": "Business",
+        "title": "Record new content",
+        "due_date": "2026-07-21",
+        "recurrence": {
+            "type": "weekly",
+            "interval": 1,
+            "daysOfWeek": [
+                "tuesday",
+                "thursday"
+            ],
+            "range_type": "noEnd",
+            "start_date": "2026-07-21"
+        },
+        "notes": "Scenario 9: Weekly recurrence on multiple specific days."
+    },
+    {
+        "area": "Personal",
+        "title": "Find pure veg restaurants",
+        "due_date": "2026-07-01",
+        "recurrence": {
+            "type": "weekly",
+            "interval": 2,
+            "daysOfWeek": [
+                "wednesday"
+            ],
+            "range_type": "noEnd",
+            "start_date": "2026-07-01"
+        },
+        "notes": "Scenario 10: Started in the past, repeats every 2 weeks. Tests Microsoft's catch-up calculation."
+    },
+    {
+        "area": "Development",
+        "title": "Review web structures",
+        "due_date": "2026-07-15",
+        "recurrence": {
+            "type": "daily",
+            "interval": 3,
+            "range_type": "noEnd",
+            "start_date": "2026-07-15"
+        },
+        "notes": "Scenario 11: Custom interval. Repeats exactly every 3 days."
+    },
+    {
+        "area": "Personal",
+        "title": "Pay monthly bills",
+        "due_date": "2026-08-01",
+        "recurrence": {
+            "type": "absoluteMonthly",
+            "interval": 1,
+            "range_type": "noEnd",
+            "start_date": "2026-08-01"
+        },
+        "notes": "Scenario 12: Monthly recurrence starting in the future."
+    },
+    {
+        "area": "Personal",
+        "title": "Yearly backup",
+        "due_date": "2027-01-01",
+        "recurrence": {
+            "type": "absoluteYearly",
+            "interval": 1,
+            "range_type": "noEnd",
+            "start_date": "2027-01-01"
+        },
+        "notes": "Scenario 13: Yearly recurrence starting next year."
+    }
+]
