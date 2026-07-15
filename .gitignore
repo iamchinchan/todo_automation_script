@@ -1,0 +1,30 @@
+# Project Secrets and Data
+.env
+tasks.json
+
+# Personal Data and Scripts
+extract_flinch_data/
+
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda and Virtual Environments
+.conda/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
